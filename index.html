@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Happy Birthday | Dini Amelia Putri</title>
+</head>
+
+<body>
+    <div id="blur" class="container">
+        <div class="content">
+            <h2>Tok tok tok.. Ada Surat Nihhhhh ...</h2>
+            <img src="./img/bg2.jpg">
+            <a href="#" onclick="toggle()">Buka Surat</a>
+        </div>
+    </div>
+
+    <div id="popup">
+        <h2>Dini Amelia Putri</h2>
+        <p>Panggilannya Dini, Dini ini adalah seorang Mahasiswa Universitas Budi Luhur. Gue kenal dia, walaupun hanya
+            sekedar kenal saja belum pernah bertemu hehe. Tapi, keliatannya dia adalah orang yang baik.<br>Ohiya, tepat
+            pada tanggal 10 Mei nanti adalah tanggal kelahirannya. Sebagai teman, gue mau mengucapkan <strong>SELAMAT
+                ULANG TAHUN</strong>. Semoga panjang umur, sehat selalu, murah rezeki dan dilancarkan kuliahnya sampai
+            lulus.<br>Barakallahu Fii Umrik ya Din.</p>
+        <a href="#" onclick="toggle()">Tutup Surat</a>
+    </div>
+
+    <script type="text/javascript">
+        function toggle() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
